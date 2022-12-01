@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets\\vendor\\startbootstrap-clean-blog\\scss",
+    "\\assets\\vendor\\startbootstrap-clean-blog\\scss\\sections",
     "\\bin",
-    "\\img",
-    "\\posts"
+    "\\img\\posts",
+    "\\img\\posts\\Noise Pollution",
+    "\\posts",
+    "\\_drafts",
+    "\\_posts"
   ],
+  "SelectedNode": "\\_posts",
   "PreviewInSolutionExplorer": false
 }
