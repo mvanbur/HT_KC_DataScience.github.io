@@ -8,7 +8,7 @@ background: '/img/posts/ZipCodes/soundwave.jpg'
 
 
 ## NYC Noise Complaints Visualized
-Noise pollution in NYC from 311 data
+Noise pollution in NYC from 311 data - ZipCode Rate
 ![NoisePollution](/img/posts/ZipCodes/noise pollution.jpg)
 
 

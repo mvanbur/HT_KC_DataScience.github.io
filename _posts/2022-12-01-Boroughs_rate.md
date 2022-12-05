@@ -8,7 +8,7 @@ background: '/img/posts/Noise Pollution/soundwave.jpg'
 
 
 ## NYC Noise Complaints Visualized
-Noise pollution in NYC from 311 data
+Noise pollution in NYC from 311 data - Borough Rate
 ![NoisePollution](/img/posts/Boroughs/noise pollution.jpg)
 
 
