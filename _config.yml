@@ -2,8 +2,8 @@ title:              HunaTek + Kalman Data Science Blog
 email:              mvanbur@gmu.edu
 description:        Data Science competitions entries
 author:             Scott Van Buren
-baseurl:            "https://mvanbur.github.io"
-url:                "https://mvanbur.github.io/HT_KC_DataScience"
+baseurl:            ""
+url:                "https://mvanbur.github.io"
 
 # Social Profiles
 twitter_username:   
