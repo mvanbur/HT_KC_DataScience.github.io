@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Pale Blue Dot"
+subtitle: "Visualizing distance required to walk for fresh water"
+date: 2024-01-02 22:05:13 -0400
+background: '/img/posts/water_walk.jpg'
+---
+<span class="caption text-muted">© UNICEF/Safidy Andrianantenain.</span>
+
+<p>Insert intro</p>
+
+<h2 class="section-heading">Project Background</h2>
+
+<blockquote class="blockquote">This visual furthers SDG 6: Clean Water and Sanitation by helping decision makers decide how much capital to invest in the region to ensure a standard of access to drinking water. Our visual displays the distance women and girls in Rwanda must travel to gain access to clean water (water points). We have included data that shows the condition of these water points (functional, non-functional, and functional but needs repair). The visualization calculates the distance to the closest water point for Rwanda’s women and girls and compares it to the cost of repair to help decision makers see the impact of investing in water sources.</blockquote>
+
+<h2 class="section-heading">Data and visualization tool selection</h2>
+
+<p>Our visualization uses satellite population data as well as a dataset from the Water Point Data Exchange to evaluate how far women in Rwanda are from potable water points. We created the visualization in Python with packages such as Plotly, GeoPandas, Rasterio, and Shapely. To process the data in Python we loaded in the satellite population data and restricted it to women, since they are the most impacted by needing to travel to access water. The water point and population data were in the WGS84 (latitude and longitude), so the initial distance calculation was made in degrees to find the nearest water point for each population point. Once the nearest water point was identified in degrees, the distance to just the single nearest water point was calculated in kilometers using GeoPy. We created a 3D representation of the distance women are from freshwater points with the Plotly library. Then we removed water points listed as non-functional or with fecal coliform present as this indicates that the water is unsafe for drinking. The distance to the water points if they are all operational and cleared of fecal coliform can be compared to the distance without these water points using this interactive visualization.</p>
+![NoisePollution](/img/posts/ZipCodes/noise pollution.jpg)
+
+<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+<p>Show initial visualizations</p>
+
+<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
